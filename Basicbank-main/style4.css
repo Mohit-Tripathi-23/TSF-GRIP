@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding:0;
+ 
+}
+.header
+{
+    min-height: 100vh;
+    width:100%;
+    background-image:url("image/users.jpg");
+    
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+ul{
+    width: 100%;
+    background-color:rgba(255,255,255,.8);
+}
+
+
+.nav-links
+{
+    flex:1;
+    text-align:right;
+    
+}
+
+
+.logo{
+    
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 50px;    
+    color:rgb(250, 246, 244);
+    margin-top: 22px;
+    margin-left: 20px;
+    float:left;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #060a41;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding:40px 26px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav-links ul li a
+{
+    color:black;
+    text-decoration: none;
+    font-size:18px;
+   
+   
+
+   
+}
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background:red;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+
+
+
+ 
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+footer {
+  text-align: center;
+  padding: 13px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px 7px 0;
+  border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.socail
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+p
+{
+    font-family: 'Roboto', sans-serif;
+}
+.main-div
+{
+ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-div
+{
+    width: 80%;
+    height: 65vh;
+    background: -webkit-linear-gradient(left,#5DADE2 , #00c6ff);
+    padding: 20px 0 0 0;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top:-30px;
+    margin-bottom: 10px;
+}
+
+table
+{
+    border-collapse: collapse;
+   text-align: center;
+   background-color:#fff;
+   box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+   border-radius: 10px;
+   margin: auto;
+   margin-top: 20px;
+  
+   
+}
+th
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 23px;
+    background-color:lightgoldenrodyellow;
+   
+}
+th,td
+{
+    border: 1px solid #f2f2f2;
+    padding: 8px 30px;
+    text-align: center;
+    color:black;
+}
+
+td
+{
+    font-size: 15px;
+}
+
+tr:hover
+{
+    background-color:#f5f5f5;
+}
